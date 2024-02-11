@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* write your CSS here */
+
+body {
+  background-color: #d9d9d9;
+  display: grid;
+  place-content: center;
+}
+
+.wrapper {
+  background-color: #fff;
+  box-shadow: 10px 10px 10px 0px rgba(173, 175, 169, 0.5);
+  width: 700px;
+  height: 350px;
+  border-radius: 40px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #1e1411;
+  gap: 1rem;
+}
+
+.wrapper h3 {
+  width: 75%;
+  font-size: 1.5rem;
+  font-weight: 550;
+  margin-bottom: 0.8rem;
+}
+
+.wrapper .social span {
+  width: 62px;
+  height: 62px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: grid;
+  place-content: center;
+  cursor: pointer;
+}
+
+.wrapper .social {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.wrapper .social span:hover {
+  border: 2px solid #1e1411;
+}
+
+svg {
+  width: 28px;
+  height: 28px;
+}
+
+.wrapper h6 {
+  width: 75%;
+  margin-top: 1rem;
+}
+
+.wrapper p {
+  background-color: #d9d9d9;
+  padding: 15px;
+  border-radius: 12px;
+  width: 80%;
+  /* height: ; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 1.5rem;
+  gap: 3rem;
+}
+
+.wrapper p span {
+  font-size: 0.8rem;
+}
+
+.wrapper p button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  font-weight: 500;
+  cursor: pointer;
+}
